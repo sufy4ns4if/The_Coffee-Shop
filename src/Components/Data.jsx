@@ -1,103 +1,35 @@
-import affogato from "../assets/affogato.png";
-import americano from "../assets/americano.png";
-import cappuccino from "../assets/cappuccino.png";
-import cortado from "../assets/cortado.png";
-import doppio from "../assets/doppio.png";
-import espresso from "../assets/espresso.png";
-import espresso_martini from "../assets/espresso_martini.png";
-import flat_white from "../assets/flat_white.png";
-import irish_coffee from "../assets/irish_coffee.png";
-import latte from "../assets/latte.png";
-import lungo from "../assets/lungo.png";
-import macchiato from "../assets/macchiato.png";
-import mocha from "../assets/mocha.png";
-import red_eye from "../assets/red_eye.png";
-import ristretto from "../assets/ristretto.png";
-import vienna from "../assets/vienna.png";
+import affogato from "./Data_imgs/GPT individual_coffee_pictures/affogato.png";
+import americano from "./Data_imgs/GPT individual_coffee_pictures/americano.png";
+import cappuccino from "./Data_imgs/GPT individual_coffee_pictures/cappuccino.png";
+import cortado from "./Data_imgs/GPT individual_coffee_pictures/cortado.png";
+import doppio from "./Data_imgs/GPT individual_coffee_pictures/doppio.png";
+import espressoMartini from "./Data_imgs/GPT individual_coffee_pictures/espresso-martini.png";
+import espresso from "./Data_imgs/GPT individual_coffee_pictures/espresso.png";
+import flatWhite from "./Data_imgs/GPT individual_coffee_pictures/flat-white.png";
+import irishCoffee from "./Data_imgs/GPT individual_coffee_pictures/irish-coffee.png";
+import latte from "./Data_imgs/GPT individual_coffee_pictures/latte.png";
+import lungo from "./Data_imgs/GPT individual_coffee_pictures/lungo.png";
+import macchiato from "./Data_imgs/GPT individual_coffee_pictures/macchiato.png";
+import mocha from "./Data_imgs/GPT individual_coffee_pictures/mocha.png";
+import redEye from "./Data_imgs/GPT individual_coffee_pictures/red-eye.png";
+import ristretto from "./Data_imgs/GPT individual_coffee_pictures/ristretto.png";
+import vienna from "./Data_imgs/GPT individual_coffee_pictures/vienna.png";
 
-
-export default Data = [
-
-    {
-        name: "Affogato",
-        type: "Hot, Cold",
-        img: affogato
-    },
-    {
-        name: "americano",
-        type: "Hot",
-        img: americano
-    },
-    {
-        name: "Cappuccino",
-        type: "Hot, Cold",
-        img: cappuccino
-    },
-    {
-        name: "Cortado",
-        type: "Hot, Cold",
-        img: cortado
-    },
-    {
-        name: "doppio",
-        type: "Cold",
-        img: doppio
-    },
-    {
-        name: "espresso",
-        type: "Hot, Cold",
-        img: espresso
-    },
-    {
-        name: "espresso martini",
-        type: "Hot, Cold",
-        img: espresso_martini
-    },
-    {
-        name: "flat white",
-        type: "Hot, Cold",
-        img: flat_white
-    },
-    {
-        name: "irish-coffee",
-        type: "Hot, Cold",
-        img: irish-coffee
-    },
-    {
-        name: "latte",
-        type: "Extra Hot, Hot, Warm, Cold",
-        img: latte
-    },
-    {
-        name: "lungo",
-        type: "Hot, Cold",
-        img: lungo
-    },
-    {
-        name: "macchiato",
-        type: "Hot, Cold",
-        img: macchiato
-    },
-    {
-        name: "mocha",
-        type: "Hot, Cold, Iced",
-        img: mocha
-    },
-    {
-        name: "red-eye",
-        type: "Hot, Cold",
-        img: red-eye
-    },
-    {
-        name: "ristretto",
-        type: "Hot, Cold",
-        img: ristretto
-    },
-    {
-        name: "vienna",
-        type: "Hot, Cold",
-        img: vienna
-    },
-
-
-]
+export const Data = [
+    { name: "Affogato", type: "Hot, Cold", img: affogato },
+    { name: "Americano", type: "Hot", img: americano },
+    { name: "Cappuccino", type: "Hot, Cold", img: cappuccino },
+    { name: "Cortado", type: "Hot, Cold", img: cortado },
+    { name: "Doppio", type: "Hot, Cold", img: doppio },
+    { name: "Espresso", type: "Hot", img: espresso },
+    { name: "Espresso Martini", type: "Cold", img: espressoMartini },
+    { name: "Flat White", type: "Hot", img: flatWhite },
+    { name: "Irish Coffee", type: "Hot", img: irishCoffee },
+    { name: "Latte", type: "Extra Hot, Hot, Warm, Cold", img: latte },
+    { name: "Lungo", type: "Hot", img: lungo },
+    { name: "Macchiato", type: "Hot, Cold", img: macchiato },
+    { name: "Mocha", type: "Hot, Cold, Iced", img: mocha },
+    { name: "Red Eye", type: "Hot", img: redEye },
+    { name: "Ristretto", type: "Hot", img: ristretto },
+    { name: "Vienna", type: "Hot, Cold", img: vienna },
+];
