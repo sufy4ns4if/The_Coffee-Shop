@@ -9,7 +9,7 @@ const Search = () => {
         const query = search.trim().toLowerCase();
 
         return (
-            coffee.name.toLowerCase().includes(query) ||
+            coffee.name.toLowerCase().includes(query) || //includes check does name or type of coffee and returns true || FROM BOTH OR ANY ONE
             coffee.type.toLowerCase().includes(query)
         );
     });
@@ -19,7 +19,7 @@ const Search = () => {
             <header className="shopHeader">
                 <p className="eyebrow">SLH ( Coffee Shop )</p>
                 <h1>Find Your <span>Perfect Coffee.</span></h1>
-                <p className="subtitle">Explore the classics, one cup at a time.</p>
+                <p className="subtitle">Explore the classics, feel the temp's.</p>
             </header>
 
             <label className="searchWrap">
@@ -28,15 +28,15 @@ const Search = () => {
                     type="search"
                     placeholder="Search coffee by name or type..."
                     value={search}
-                    onChange={(event) => setSearch(event.target.value)}
-                    aria-label="Search coffee by name or type"
+                    onChange={(e) => setSearch(e.target.value)}
+                    // aria-label="Search coffee by name or type"
                 />
                 {search && (
                     <button
                         className="clearSearch"
                         type="button"
                         onClick={() => setSearch("")}
-                        aria-label="Clear search"
+                        // aria-label="Clear search"
                     >
                         ×
                     </button>
