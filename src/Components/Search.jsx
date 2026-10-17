@@ -1,6 +1,8 @@
 import { useState } from "react";
 import { Data } from "./Data";
 
+import CoffeeGallery from "./CoffeeGallery";
+
 const Search = () => {
     const [search, setSearch] = useState("");
 
@@ -42,6 +44,8 @@ const Search = () => {
                     </button>
                 )}
             </label>
+
+            <CoffeeGallery />
 
             <div className="resultsBar">
                 <span>OUR COFFEE MENU</span>

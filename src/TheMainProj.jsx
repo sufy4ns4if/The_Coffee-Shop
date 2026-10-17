@@ -1,13 +1,15 @@
-import './Stylization.css'
-import Search from './Components/Search'
+import "./Stylization.css";
+import Search from "./Components/Search";
+import CoffeeGallery from "./Components/CoffeeGallery";
 
-export default function FilterCoffee()
-{
-
-
-    return(
-        <div className="MainApplication">
+export default function TheMainProj() {
+    return (
+        <main className="MainApplication">
             <Search />
-        </div>
-    )
+            <CoffeeGallery />
+
+        <CoffeeGallery /><CoffeeGallery /><CoffeeGallery /><CoffeeGallery /><CoffeeGallery /><CoffeeGallery /><CoffeeGallery />
+
+        </main>
+    );
 }

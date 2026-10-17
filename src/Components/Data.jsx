@@ -1,19 +1,19 @@
-import affogato from "./Data_imgs/GPT individual_coffee_pictures/affogato.png";
-import americano from "./Data_imgs/GPT individual_coffee_pictures/americano.png";
-import cappuccino from "./Data_imgs/GPT individual_coffee_pictures/cappuccino.png";
-import cortado from "./Data_imgs/GPT individual_coffee_pictures/cortado.png";
-import doppio from "./Data_imgs/GPT individual_coffee_pictures/doppio.png";
-import espressoMartini from "./Data_imgs/GPT individual_coffee_pictures/espresso-martini.png";
-import espresso from "./Data_imgs/GPT individual_coffee_pictures/espresso.png";
-import flatWhite from "./Data_imgs/GPT individual_coffee_pictures/flat-white.png";
-import irishCoffee from "./Data_imgs/GPT individual_coffee_pictures/irish-coffee.png";
-import latte from "./Data_imgs/GPT individual_coffee_pictures/latte.png";
-import lungo from "./Data_imgs/GPT individual_coffee_pictures/lungo.png";
-import macchiato from "./Data_imgs/GPT individual_coffee_pictures/macchiato.png";
-import mocha from "./Data_imgs/GPT individual_coffee_pictures/mocha.png";
-import redEye from "./Data_imgs/GPT individual_coffee_pictures/red-eye.png";
-import ristretto from "./Data_imgs/GPT individual_coffee_pictures/ristretto.png";
-import vienna from "./Data_imgs/GPT individual_coffee_pictures/vienna.png";
+import affogato from "./Data_imgs/affogato.png";
+import americano from "./Data_imgs/americano.png";
+import cappuccino from "./Data_imgs/cappuccino.png";
+import cortado from "./Data_imgs/cortado.png";
+import doppio from "./Data_imgs/doppio.png";
+import espressoMartini from "./Data_imgs/espresso_martini.png";
+import espresso from "./Data_imgs/espresso.png";
+import flatWhite from "./Data_imgs/flat_white.png";
+import irishCoffee from "./Data_imgs/irish_coffee.png";
+import latte from "./Data_imgs/latte.png";
+import lungo from "./Data_imgs/lungo.png";
+import macchiato from "./Data_imgs/macchiato.png";
+import mocha from "./Data_imgs/mocha.png";
+import redEye from "./Data_imgs/red_eye.png";
+import ristretto from "./Data_imgs/ristretto.png";
+import vienna from "./Data_imgs/vienna.png";
 
 export const Data = [
     { name: "Affogato", type: "Hot, Cold", img: affogato },

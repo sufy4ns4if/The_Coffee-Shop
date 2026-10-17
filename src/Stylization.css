@@ -87,7 +87,7 @@ button {
     gap: 12px;
     width: min(100%, 620px);
     min-height: 58px;
-    margin: 0 auto 42px;
+    margin: 0 auto;
     padding: 0 18px;
     border: 1px solid var(--line);
     border-radius: 14px;
@@ -300,10 +300,6 @@ button {
         font-size: clamp(32px, 9vw, 44px);
     }
 
-    .searchWrap {
-        margin-bottom: 34px;
-    }
-
     .type,
     .itemCard {
         grid-template-columns: minmax(0, 1fr) minmax(0, 0.9fr) 62px;
@@ -341,4 +337,58 @@ button {
         width: 58px;
         height: 58px;
     }
+}
+
+
+/* Coffee marquee gallery */
+.coffeeGallery {
+    width: min(100%, 1120px);
+    margin: 0 auto;
+    padding: 12px 0;
+    overflow: hidden;
+}
+
+.galleryIntro {
+    margin: 0;
+    text-align: center;
+}
+
+.galleryIntro .eyebrow {
+    margin-bottom: 9px;
+}
+
+.galleryIntro h2 {
+    margin: 0 0 24px;
+    color: var(--cream);
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: clamp(25px, 4vw, 36px);
+    font-weight: 600;
+    letter-spacing: -0.03em;
+}
+
+.galleryIntro h2 span {
+    color: var(--coffee);
+}
+
+.galleryCard {
+    width: 110px;
+    height: 94px;
+    flex: 0 0 auto;
+    overflow: hidden;
+    border: 1px solid rgba(238, 216, 190, 0.24);
+    border-radius: 9px;
+    background: #f1e7d9;
+}
+
+.galleryCard img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    padding: 4px;
+    transition: transform 350ms ease;
+}
+
+.galleryCard:hover img {
+    transform: scale(1.08);
 }
